@@ -23,3 +23,9 @@ source venv/bin/activate
 ```
 
 You should see a `(venv)` in your terminal prompt. You should always `source venv/bin/activate` before doing anything!
+
+**After activating your virtualenv**, install the requirements:
+
+```
+pip install -r requirements.txt
+```
