@@ -29,3 +29,12 @@ You should see a `(venv)` in your terminal prompt. You should always `source ven
 ```
 pip install -r requirements.txt
 ```
+
+
+## To run server
+
+Type this in the terminal:
+
+```
+uvicorn main:app --reload
+```
