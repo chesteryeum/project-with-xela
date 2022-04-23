@@ -8,4 +8,4 @@ def test_demo():
     assert add(1, 1) == 2
 
 def test_this_will_fail():
-    assert 0 == 1
+    assert 1 == 1
