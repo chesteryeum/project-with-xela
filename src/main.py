@@ -11,6 +11,6 @@ async def root():
 async def read_item(item_id: int):
     return {"item_id": item_id}
 
-@app.get("/add/")
-async def add_integers(a: int, b: int):
-    return a + b
+@app.get("/subtract/")
+async def subtract_integers(a: int, b: int):
+    return a - b
